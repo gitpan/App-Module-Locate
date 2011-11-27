@@ -14,7 +14,7 @@
 
 use strict;
 use warnings;
-our $VERSION = '0.1'; # VERSION
+our $VERSION = '0.2'; # VERSION
 use Module::Locate 'locate';
 
 for my $module(@ARGV) {
@@ -26,7 +26,8 @@ for my $module(@ARGV) {
     }
 };
 
-__END__
+
+
 =pod
 
 =head1 NAME
@@ -35,7 +36,7 @@ mlocate - Find module locate by his name
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 SYNOPSIS
 
@@ -50,6 +51,14 @@ version 0.1
   => ...lib/site_perl/5.14.2/Redis.pm
   => ...lib/site_perl/5.14.2/DBI.pm
 
+=head1 BUGS
+
+Any bugs or evolution can be submit here :
+
+L<Github|https://github.com/geistteufel/App-Module-Locate>
+
+=head1
+
 =head1 AUTHOR
 
 Geistteufel <geistteufel@celogeek.fr>
@@ -62,4 +71,7 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
+
+
+__END__
 

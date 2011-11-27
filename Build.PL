@@ -24,7 +24,7 @@ my %module_build_args = (
     "Geistteufel <geistteufel\@celogeek.fr>"
   ],
   "dist_name" => "App-Module-Locate",
-  "dist_version" => "0.1",
+  "dist_version" => "0.2",
   "license" => "perl",
   "module_name" => "App::Module::Locate",
   "recommends" => {},

@@ -11,7 +11,7 @@ package App::Module::Locate;
 # ABSTRACT: Interface for module locate
 use strict;
 use warnings;
-our $VERSION = '0.1';    # VERSION
+our $VERSION = '0.2';    # VERSION
 1;
 
 __END__
@@ -24,7 +24,7 @@ App::Module::Locate - Interface for module locate
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 AUTHOR
 
