@@ -8,7 +8,6 @@ use Module::Build 0.3601;
 my %module_build_args = (
   "build_requires" => {
     "Carp" => 0,
-    "English" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
     "Module::Build" => "0.3601",
@@ -21,10 +20,10 @@ my %module_build_args = (
   },
   "dist_abstract" => "Interface for module locate",
   "dist_author" => [
-    "Geistteufel <geistteufel\@celogeek.fr>"
+    "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "App-Module-Locate",
-  "dist_version" => "0.2",
+  "dist_version" => "0.3",
   "license" => "perl",
   "module_name" => "App::Module::Locate",
   "recommends" => {},
