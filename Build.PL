@@ -23,7 +23,7 @@ my %module_build_args = (
     "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "App-Module-Locate",
-  "dist_version" => "0.3",
+  "dist_version" => "0.4",
   "license" => "perl",
   "module_name" => "App::Module::Locate",
   "recommends" => {},

@@ -4,16 +4,10 @@ LICENSE
 MANIFEST
 META.yml
 README
+README.mkdn
 bin/mlocate
 dist.ini
 lib/App/Module/Locate.pm
-perlcriticrc
-perltidyrc
 t/00-compile.t
 t/000-report-versions.t
-t/author-critic.t
-t/release-consistent-version.t
-t/release-minimum-version.t
-t/release-pod-coverage.t
-t/release-pod-syntax.t
 t/release-unused-vars.t
