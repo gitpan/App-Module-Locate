@@ -14,7 +14,7 @@
 
 use strict;
 use warnings;
-our $VERSION = '0.4'; # VERSION
+our $VERSION = '0.5'; # VERSION
 use Module::Locate 'locate';
 
 for my $module(@ARGV) {
@@ -36,7 +36,7 @@ mlocate - Find module locate by his name
 
 =head1 VERSION
 
-version 0.4
+version 0.5
 
 =head1 SYNOPSIS
 

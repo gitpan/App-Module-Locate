@@ -7,10 +7,11 @@
 # the same terms as the Perl 5 programming language system itself.
 #
 package App::Module::Locate;
+
 # ABSTRACT: Interface for module locate
 use strict;
 use warnings;
-our $VERSION = '0.4'; # VERSION
+our $VERSION = '0.5';    # VERSION
 1;
 
 __END__
@@ -22,7 +23,7 @@ App::Module::Locate - Interface for module locate
 
 =head1 VERSION
 
-version 0.4
+version 0.5
 
 =head1 BUGS
 
